@@ -1,6 +1,7 @@
 import { Footer } from './components/Footer'
 import { BrowserRouter } from "react-router"
 import { AppRoutes } from './routes'
+import { Booklet } from './pages/Booklet'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
         <>
             <BrowserRouter>
                 <AppRoutes />
-                <Footer />
+                <Booklet />
             </BrowserRouter>
         </>
     )

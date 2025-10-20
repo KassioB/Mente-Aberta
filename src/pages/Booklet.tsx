@@ -79,9 +79,9 @@ export function Booklet() {
                             <h4 className="text-lg font-semibold text-amber-800">1. Introdução: O que é Saúde Mental e sua Importância
                             </h4>
                             <p className="mt-2 text-sm text-amber-700">
-                                1.1 Definição de saúde mental segundo a OMS:
+                                1.1 Definição de saúde mental:
                                 Segundo a Organização Mundial da Saúde (OMS), saúde mental se trata do estado de bem-estar no qual o indivíduo é capaz de usar suas próprias habilidades, recuperar-se do estresse rotineiro, ser produtivo e contribuir com a sua comunidade.
-                                A saúde mental é um assunto complexo, que é vivenciado de forma diferente de uma pessoa para outra. A qualquer momento, um conjunto diversificado de fatores individuais, familiares e estruturais pode combinar-se para proteger ou prejudicar a saúde mental. Embora a maioria das pessoas seja resiliente, as pessoas expostas a circunstâncias adversas correm maior risco de desenvolver um problema de saúde mental. As condições de saúde mental incluem transtornos mentais e deficiências psicossociais, muitas condições de saúde mental podem ser tratadas eficazmente a um custo relativamente baixo, mas os sistemas de saúde continuam significativamente com poucos recursos e as lacunas de tratamento são grandes em todo o mundo.
+                                A saúde mental é um assunto complexo, que é vivenciado de forma diferente de uma pessoa para outra. A qualquer momento, um conjunto diversificado de fatores individuais, familiares e estruturais pode combinar-se para proteger ou prejudicar a saúde mental. Embora a maioria das pessoas sejam resiliente, as pessoas expostas a circunstâncias adversas correm maior risco de desenvolver um problema de saúde mental. As condições de saúde mental incluem transtornos mentais e deficiências psicossociais, muitas condições podem ser tratadas eficazmente a um custo relativamente baixo, mas os sistemas de saúde continuam significativamente com poucos recursos e as lacunas de tratamento são grandes em todo o mundo.
 
                             </p>
                         </section>
@@ -259,7 +259,7 @@ export function Booklet() {
                                     • Estabelecer rotina de sono adequada<br />
                                     • Evitar álcool e drogas<br />
                                     • Fortalecer rede de apoio social<br />
-                                    • Técnicas de relaxamento e mindfulness
+                                    • Técnicas de relaxamento e mindfulness (focar a atenção no momento presente)
 
 
                                 </p>
@@ -413,6 +413,7 @@ export function Booklet() {
                         <section className="bg-amber-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
                             <p className="mt-2 text-sm text-amber-900">
                                 <strong>5. Como Buscar Ajuda e Se Ajudar : </strong><br />
+                                <strong>• 5.2 O que NÃO fazer: </strong><br />
                                 Ignorar a situação<br />
                                 Julgar as causas da crise ou a reação da pessoa<br />
                                 Minimizar o sofrimento: "Já passei por coisas piores"<br />
@@ -429,7 +430,7 @@ export function Booklet() {
                     <section className="bg-blue-100 rounded-2xl p-6 shadow-md border border-gray-100">
                         <div className="md:flex md:items-start md:gap-6">
                             <div className="md:flex-1">
-                                <h4 className="text-lg font-semibold">5. Como Buscar Ajuda e Se Ajudar
+                                <h4 className="text-lg font-semibold">5.3 Como Buscar Ajuda e Se Ajudar
                                 </h4>
                                 <p className="mt-2 text-sm text-gray-700">Buscar ajuda pode parecer difícil — aqui estão passos práticos:</p>
 
@@ -440,7 +441,7 @@ export function Booklet() {
                                     <div>
                                         <details className="cursor-pointer group">
                                             <summary className="flex items-center justify-start">
-                                                2. Serviços de Saúde Mental:<span className="ml-1 text-red-500 transition-transform duration-200 group-open:rotate-90">▶</span>
+                                                2. Recursos gratuitos no Brasil:<span className="ml-1 text-red-500 transition-transform duration-200 group-open:rotate-90">▶</span>
                                             </summary>
                                             <ul className="mt-2 ml-5 list-disc text-sky-800 text-sm">
                                                 <li>CAPS (Centros de Atenção Psicossocial): serviços públicos especializados em saúde mental que oferecem atendimento integral, com equipe multidisciplinar (médicos, psicólogos, assistentes sociais, enfermeiros)

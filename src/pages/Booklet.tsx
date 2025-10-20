@@ -106,7 +106,7 @@ export function Booklet() {
                                     Ansiedade se define como o estado emocional complexo que envolve sentimentos de apreensão,
                                     nervosismo, preocupação e medo em relação a eventos futuros. Segundo o Relatório Mundial da
                                     Saúde Mental de 2020 da Organização Mundial da Saúde (OMS), a ansiedade é um problema de saúde
-                                    mental prevalente que pode impactar significativamente o funcionamento diário das pessoas​.
+                                    mental prevalente que pode impactar significativamente o funcionamento diário das pessoas.
                                     Sendo a ansiedade um sentimento de preocupação, medo ou apreensão que é normal em situações de
                                     estresse é importante diferenciar a comum ansiedade com o Transtorno de Ansiedade, uma vez que
                                     ela é uma condição mental caracterizada por essa tal preocupação excessiva persistente e que
@@ -250,7 +250,7 @@ export function Booklet() {
                                 <p className="mt-2 text-sm text-sky-800">
                                     <strong>3.4 Como Enfrentar a Depressão<br /></strong>
                                     • Buscar ajuda profissional (psicólogo, psiquiatra)<br />
-                                    • Tratamento combinado: psicoterapia e, quando necessário, medicação​<br />
+                                    • Tratamento combinado: psicoterapia e, quando necessário, medicação<br />
                                     • Manter atividade física regular<br />
                                     • Estabelecer rotina de sono adequada<br />
                                     • Evitar álcool e drogas<br />
@@ -295,7 +295,7 @@ export function Booklet() {
                                     <strong> 4. Prevenção ao Suicídio: Salvar Vidas é Possível <br /></strong>
 
                                     4.1 Dados e Conscientização:
-                                    - Segundo Organização Mundial de Saúde aproximadamente 800 mil pessoas morrem por suicídio por ano no mundo​: aproximadamente 1 para cada 100 mortes.
+                                    - Segundo Organização Mundial de Saúde aproximadamente 800 mil pessoas morrem por suicídio por ano no mundo: aproximadamente 1 para cada 100 mortes.
                                     - No Brasil, 42 pessoas por dia tiram a própria vida
                                     - Suicídio é a terceira maior causa de morte entre jovens de 15 a 29 anos
                                     - Segundo a OMS, 90% dos casos de suicídio podem ser prevenidos, desde que existam condições mínimas para oferta de ajuda voluntária ou profissional.
@@ -318,8 +318,8 @@ export function Booklet() {
                         <section className="bg-sky-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
                             <p className="mt-2 text-sm text-sky-700">
                                 <strong>4.2 Fatores de Risco para Suicídio: </strong><br />
-                                • Tentativas anteriores de suicídio (principal fator)​<br />
-                                • Transtornos mentais (depressão, ansiedade, abuso de substâncias)​<br />
+                                • Tentativas anteriores de suicídio (principal fator)<br />
+                                • Transtornos mentais (depressão, ansiedade, abuso de substâncias)<br />
                                 • Histórico familiar de suicídio<br />
                                 • Desemprego e problemas financeiros<br />
                                 • Discriminação (orientação sexual, identidade de gênero, raça)<br />

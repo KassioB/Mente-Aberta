@@ -6,6 +6,10 @@ import Animation5 from "../components/Animation5";
 import Animation6 from "../components/Animation6";
 import Animation7 from "../components/Animation7";
 import Animation8 from "../components/Animation8";
+import Depressao from "../assets/Depressao.png";
+import Card from "../assets/Card.png";
+import CausasSuicidio from "../assets/CausasSuicidio.png";
+import Ansiedade from "../assets/Ansiedade.jpg";
 
 export function Booklet() {
     return (
@@ -178,7 +182,7 @@ export function Booklet() {
                     {/* Como buscar ajuda: card grande com duas colunas internas */}
                     <section className="bg-[#FFE5E4] rounded-2xl p-6 shadow-md border border-gray-100">
                         <div className="md:flex ">
-                            <img src="src/assets/Ansiedade.jpg" alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-150 h-auto mt-5 mb-5" />
+                            <img src={Ansiedade} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-150 h-auto mt-5 mb-5" />
                         </div>
                     </section>
 
@@ -272,7 +276,7 @@ export function Booklet() {
 
                     <section className="bg-[#FFC0E3] rounded-2xl p-6 shadow-md border border-gray-100">
                         <div className="md:flex ">
-                            <img src="src/assets/Depressao.png" alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-110 h-auto mt-5 mb-5" />
+                            <img src={Depressao} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-110 h-auto mt-5 mb-5" />
                         </div>
                     </section>
 
@@ -283,7 +287,7 @@ export function Booklet() {
                         </h4>
                         <div className="md:flex ">
 
-                            <img src="src/assets/Card.png" alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-150 h-auto mt-5 mb-5" />
+                            <img src={Card} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-150 h-auto mt-5 mb-5" />
                         </div>
                     </section>
 
@@ -384,7 +388,7 @@ export function Booklet() {
 
                     <section className="bg-[#FFEABD] rounded-2xl p-6 shadow-md border border-gray-100">
                         <div className="md:flex ">
-                            <img src="src/assets/CausasSuicidio.png" alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-180 h-auto mt-5 mb-5" />
+                            <img src={CausasSuicidio} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-180 h-auto mt-5 mb-5" />
                         </div>
                     </section>
 

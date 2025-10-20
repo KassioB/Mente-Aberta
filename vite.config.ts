@@ -1,8 +1,9 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
 
-// Substitua <REPO_NAME> pelo nome do repositório (ex: mente-aberta)
+// https://vite.dev/config/
 export default defineConfig({
-    base: "/Mente-Aberta/",
-    plugins: [react()]
-});
+  plugins: [react()],
+  base: '/Mente-Aberta/',
+})
+    

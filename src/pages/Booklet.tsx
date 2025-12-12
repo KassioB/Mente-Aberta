@@ -7,26 +7,18 @@ import Animation6 from "../components/Animation6";
 import Animation7 from "../components/Animation7";
 import Animation8 from "../components/Animation8";
 import Depressao from "../assets/Depressao.png";
-import Card from "../assets/Card.png";
+import { Header } from "../components/Header";
+import Card from "../assets/Card.PNG";
 import CausasSuicidio from "../assets/CausasSuicidio.png";
 import Ansiedade from "../assets/Ansiedade.jpg";
+import { Breadcrumb } from "../components/breadcrumb";
 
 export function Booklet() {
     return (
-        <div className="min-h-screen bg-gray-700">
+        <div className="min-h-screen bg-[#F8F8F8]">
             {/* Top bar similar ao exemplo */}
-            <div className="bg-blue-100 border-b border-blue-200">
-                <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                        <button className="p-1 rounded hover:bg-blue-200">
-                            <svg className="w-6 h-6 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
-                        <h1 className="font-medium text-lg text-blue-900">Mentes em Foco: Prevenção e Cuidado</h1>
-                    </div>
-                </div>
-            </div>
+         <Header/>
+         <Breadcrumb/>
 
             <main className="max-w-4xl mx-auto px-4 py-10">
                 {/* Hero/Card principal */}

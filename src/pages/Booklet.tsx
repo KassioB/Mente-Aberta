@@ -11,7 +11,7 @@ import { Header } from "../components/Header";
 import Card from "../assets/Card.PNG";
 import CausasSuicidio from "../assets/CausasSuicidio.png";
 import Ansiedade from "../assets/Ansiedade.jpg";
-import { Breadcrumb } from "../components/breadcrumb";
+import { Breadcrumb } from "../components/Breadcrumb";
 
 export function Booklet() {
     return (

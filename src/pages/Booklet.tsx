@@ -23,7 +23,7 @@ export function Booklet() {
 
             <main className="max-w-4xl mx-auto px-4 py-10">
                 {/* Hero/Card principal */}
-                <section className="bg-gradient-to-r from-amber-100 from-10% via-lime-100 via-50% to-sky-200 to-90% text-gray-700 rounded-2xl shadow-lg overflow-hidden p-8 mb-8">
+                <section className="bg-gradient-to-r from-amber-100 from-10% via-lime-100 via-50% to-sky-200 to-90% text-gray-700 rounded-2xl shadow-xl overflow-hidden p-8 mb-8 border border-gray-400">
                     <div className="flex flex-col md:flex-row items-center gap-6">
                         {/* Conteúdo textual */}
                         <div className="flex-1">
@@ -45,7 +45,7 @@ export function Booklet() {
                 {/* Conteúdo em cartões pastel */}
                 <article className="space-y-6">
                     {/* Sumário card */}
-                    <div className="bg-sky-100 border border-sky-100 rounded-2xl p-6 shadow-sm">
+                    <div className="bg-sky-100 border border-gray-400 rounded-2xl p-6 shadow-xl">
                         <div className="flex flex-col md:flex-row items-start justify-between gap-6">
                             {/* Animation2 à esquerda */}
                             <div className="md:w-150 overflow-hidden clip-path">
@@ -68,7 +68,7 @@ export function Booklet() {
                     </div>
                     {/* Grid com cards lado a lado (em telas maiores) */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <section className="bg-amber-50 border border-amber-100 rounded-2xl p-5 shadow-sm">
+                        <section className="bg-amber-50 border border-gray-400 rounded-2xl p-5 shadow-xl">
                             <h4 className="text-lg font-semibold text-amber-800">1. Introdução: O que é Saúde Mental e sua Importância
                             </h4>
                             <p className="mt-2 text-sm text-amber-700">
@@ -79,7 +79,7 @@ export function Booklet() {
                             </p>
                         </section>
 
-                        <section className="bg-lime-50 border border-lime-100 rounded-2xl p-5 shadow-sm">
+                        <section className="bg-lime-50 border border-gray-400 rounded-2xl p-5 shadow-xl">
                             <h4 className="text-lg font-semibold text-lime-700">1.2 Dados sobre prevalência de transtornos mentais no Brasil: </h4>
                             <p className="mt-2 text-sm text-lime-700">
                                 Quando passamos a observar o cenário da Saúde Mental no Brasil é inevitável notar o quanto ela se tornou um assunto em pauta nos últimos anos, e infelizmente não se tornou pauta por um bom motivo. Mesmo antes da pandemia, o Brasil era o país com maior prevalência de ansiedade. Segundo um estudo de 2017 da OMS, 18 milhões de brasileiros sofriam com algum tipo de distúrbio relacionado ao problema. Isso equivalia a 9,3% da população. Já a depressão afetava 12 milhões de pessoas no país, sendo a maior incidência da América Latina, e tudo indica que esses distúrbios psicológicos só se agravaram depois de 2020, afinal no novo relatório global World Mental Health Day 2024, nele foi feito um questionamento interessante : “qual o maior problema de saúde enfrentado pelas pessoas em seu país hoje?” A resposta de 54% dos brasileiros afirmaram ser a saúde mental, posicionando o Brasil como 9° colocado do mundo.
@@ -90,7 +90,7 @@ export function Booklet() {
 
 
                     {/* Box com detalhes (Symptoms) e ilustração */}
-                    <section className="bg-[#EDE4DD] border border-amber-100 rounded-2xl p-4 shadow-sm">
+                    <section className="bg-[#EDE4DD] border border-gray-400 rounded-2xl p-4 shadow-xl">
                         <div className="md:flex md:items-center md:gap-6">
                             {/* Lado esquerdo: textos */}
                             <div className="md:flex-1">
@@ -123,7 +123,7 @@ export function Booklet() {
 
                     {/* Autocuidado e Apoio lado a lado */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <section className="bg-sky-100 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-sky-100 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-sky-800">
                                 <strong>2.2 Tipos de Transtornos de Ansiedade:</strong><br />
                                 • Fobia Específica: Medo intenso de situações ou objetos específicos.<br />
@@ -134,7 +134,7 @@ export function Booklet() {
                             </p>
                         </section>
 
-                        <section className="bg-stone-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-stone-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-gray-800">
                                 <strong>2.3 Sintomas da Ansiedade</strong><br />
                                 Físicos: respiração ofegante, batimentos cardíacos acelerados, tremores, suor excessivo, tensão muscular, náusea, cansaço, insônia
@@ -146,7 +146,7 @@ export function Booklet() {
                         </section>
                     </div>
 
-                    <section className="bg-lime-50 border border-lime-100 rounded-2xl p-4 shadow-sm">
+                    <section className="bg-lime-50 border border-gray-400 rounded-2xl p-4 shadow-xl">
                         <div className="md:flex md:items-center md:gap-6">
                             {/* Lado esquerdo: textos */}
                             <div className="md:flex-1">
@@ -173,14 +173,14 @@ export function Booklet() {
                         </div>
                     </section>
                     {/* Como buscar ajuda: card grande com duas colunas internas */}
-                    <section className="bg-[#FFE5E4] rounded-2xl p-6 shadow-md border border-gray-100">
+                    <section className="bg-[#FFE5E4] rounded-2xl p-6 shadow-xl border border-gray-400">
                         <div className="md:flex ">
                             <img src={Ansiedade} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-150 h-auto mt-5 mb-5" />
                         </div>
                     </section>
 
                     {/* Box com detalhes (Symptoms) e ilustração */}
-                    <section className="bg-[#EDE4DD] border border-amber-100 rounded-2xl p-4 shadow-sm">
+                    <section className="bg-[#EDE4DD] border border-gray-400 rounded-2xl p-4 shadow-xl">
                         <div className="md:flex md:items-center md:gap-6">
                             {/* Lado esquerdo: textos */}
                             <div className="md:flex-1">
@@ -207,7 +207,7 @@ export function Booklet() {
 
                     {/* Autocuidado e Apoio lado a lado */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <section className="bg-emerald-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-emerald-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-emerald-700">
                                 <strong>3.2 Sintomas da Depressão: </strong><br />
                                 • Humor depressivo persistente<br />
@@ -224,7 +224,7 @@ export function Booklet() {
                             </p>
                         </section>
 
-                        <section className="bg-lime-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-lime-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-lime-700">
                                 <strong>3.3 Fatores que Contribuem para Depressão</strong><br />
                                 • Alta carga de estudos ou trabalho<br />
@@ -240,7 +240,7 @@ export function Booklet() {
                         </section>
                     </div>
 
-                    <section className="bg-sky-100 border border-sky-100 rounded-2xl p-4 shadow-sm">
+                    <section className="bg-sky-100 border border-gray-400 rounded-2xl p-4 shadow-xl">
                         <div className="md:flex md:items-center md:gap-6">
                             {/* Lado esquerdo: textos */}
                             <div className="md:flex-1">
@@ -267,14 +267,14 @@ export function Booklet() {
                         </div>
                     </section>
 
-                    <section className="bg-[#FFC0E3] rounded-2xl p-6 shadow-md border border-gray-100">
+                    <section className="bg-[#FFC0E3] rounded-2xl p-6 shadow-xl border border-gray-400">
                         <div className="md:flex ">
                             <img src={Depressao} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-110 h-auto mt-5 mb-5" />
                         </div>
                     </section>
 
                     {/* Como buscar ajuda: card grande com duas colunas internas */}
-                    <section className="bg-white rounded-2xl p-6 shadow-md border border-gray-100">
+                    <section className="bg-white rounded-2xl p-6 shadow-xl border border-gray-400">
                         <h4 className="text-center text-xl font-semibold text-gray-900 mb-2">
                             Resumindo alguns sintomas comuns de <strong><span className="text-[#006DB6]">Ansiedade</span></strong> e <strong><span className="text-[#EB766E]">Depressão</span></strong>
                         </h4>
@@ -284,7 +284,7 @@ export function Booklet() {
                         </div>
                     </section>
 
-                    <section className="bg-[#F0EEF9] border border-lime-100 rounded-2xl p-4 shadow-sm">
+                    <section className="bg-[#F0EEF9] border border-gray-400 rounded-2xl p-4 shadow-xl">
                         <div className="md:flex md:items-center md:gap-6">
                             {/* Lado esquerdo: textos */}
                             <div className="md:flex-1">
@@ -312,7 +312,7 @@ export function Booklet() {
 
                     {/* Autocuidado e Apoio lado a lado */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <section className="bg-sky-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-sky-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-sky-700">
                                 <strong>4.2 Fatores de Risco para Suicídio: </strong><br />
                                 • Tentativas anteriores de suicídio (principal fator)<br />
@@ -328,7 +328,7 @@ export function Booklet() {
                             </p>
                         </section>
 
-                        <section className="bg-emerald-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-emerald-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-emerald-900">
                                 <strong>4.3 Fatores de Proteção contra Suicídio: </strong><br />
                                 • Apoio familiar e social forte<br />
@@ -349,7 +349,7 @@ export function Booklet() {
                         </section>
                     </div>
 
-                    <section className="bg-[#FAFAF9] border border-stone-100 rounded-2xl p-4 shadow-sm">
+                    <section className="bg-[#FAFAF9] border border-gray-400 rounded-2xl p-4 shadow-xl">
                         <div className="md:flex md:items-center md:gap-6">
                             {/* Lado esquerdo: textos */}
                             <div className="md:flex-1">
@@ -379,7 +379,7 @@ export function Booklet() {
                         </div>
                     </section>
 
-                    <section className="bg-[#FFEABD] rounded-2xl p-6 shadow-md border border-gray-100">
+                    <section className="bg-[#FFEABD] rounded-2xl p-6 shadow-xl border border-gray-400">
                         <div className="md:flex ">
                             <img src={CausasSuicidio} alt="Imagem ilustrativa sobre saúde mental" className="mx-auto w-180 h-auto mt-5 mb-5" />
                         </div>
@@ -387,7 +387,7 @@ export function Booklet() {
 
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <section className="bg-emerald-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-emerald-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-emerald-700">
                                 <strong>5. Como Buscar Ajuda e Se Ajudar
                                     : </strong><br />
@@ -403,7 +403,7 @@ export function Booklet() {
                             </p>
                         </section>
 
-                        <section className="bg-amber-50 rounded-2xl p-5 border border-gray-100 shadow-sm">
+                        <section className="bg-amber-50 rounded-2xl p-5 border border-gray-400 shadow-xl">
                             <p className="mt-2 text-sm text-amber-900">
                                 <strong>5. Como Buscar Ajuda e Se Ajudar : </strong><br />
                                 <strong>• 5.2 O que NÃO fazer: </strong><br />
@@ -420,7 +420,7 @@ export function Booklet() {
                         </section>
                     </div>
                     {/* Como buscar ajuda: card grande com duas colunas internas */}
-                    <section className="bg-blue-100 rounded-2xl p-6 shadow-md border border-gray-100">
+                    <section className="bg-blue-100 rounded-2xl p-6 shadow-xl border border-gray-400">
                         <div className="md:flex md:items-start md:gap-6">
                             <div className="md:flex-1">
                                 <h4 className="text-lg font-semibold">5.3 Como Buscar Ajuda e Se Ajudar
@@ -469,20 +469,20 @@ export function Booklet() {
                                 </ol>
                             </div>
 
-                            <div className="mt-4 md:mt-0 w-full md:w-60 h-45 bg-stone-100 border border-teal-100 rounded-xl p-3 text-teal-800">
+                            <div className="mt-4 md:mt-0 w-full md:w-60 h-45 bg-stone-100 border border-gray-400 rounded-xl p-3 text-teal-800">
                                 <p className="text-sm font-medium">Dica</p>
                                 <p className="text-xs mt-2">Se puder, ofereça-se para acompanhar alguém na primeira consulta — isso reduz a ansiedade. Estar presente mostra apoio e faz a pessoa se sentir acolhida. Pequenos gestos como esse podem fazer uma grande diferença no processo de cuidar da saúde mental.</p>
                             </div>
                         </div>
                     </section>
 
-                    <section className="bg-amber-100 rounded-2xl p-6 shadow-md border border-gray-100">
+                    <section className="bg-amber-100 rounded-2xl p-6 shadow-md border border-gray-400">
                         <div className="md:flex md:items-start md:gap-6">
                             <div className="md:flex-1">
                                 <h4 className="text-lg font-semibold">6. Referências:</h4>
                                 <ol className="mt-3 list-decimal list-inside space-y-2 text-sm text-gray-700">
 
-                                    <section className="bg-stone-100 rounded-2xl p-6 shadow-md border border-gray-100">
+                                    <section className="bg-stone-100 rounded-2xl p-6 shadow-md border border-gray-400">
                                         <div className="md:flex md:items-start md:gap-6">
                                             <div className="md:flex-1">
                                                 <ol className="mt-3 list-decimal list-inside space-y-2 text-sm text-gray-700">

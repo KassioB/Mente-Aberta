@@ -476,13 +476,13 @@ export function Booklet() {
                         </div>
                     </section>
 
-                    <section className="bg-amber-100 rounded-2xl p-6 shadow-md border border-gray-400">
+                    <section className="bg-amber-100 rounded-2xl p-6 shadow-xl border border-gray-400">
                         <div className="md:flex md:items-start md:gap-6">
                             <div className="md:flex-1">
                                 <h4 className="text-lg font-semibold">6. Referências:</h4>
                                 <ol className="mt-3 list-decimal list-inside space-y-2 text-sm text-gray-700">
 
-                                    <section className="bg-stone-100 rounded-2xl p-6 shadow-md border border-gray-400">
+                                    <section className="bg-stone-100 rounded-2xl p-6 shadow-xl border border-gray-400">
                                         <div className="md:flex md:items-start md:gap-6">
                                             <div className="md:flex-1">
                                                 <ol className="mt-3 list-decimal list-inside space-y-2 text-sm text-gray-700">

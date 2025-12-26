@@ -1,3 +1,4 @@
+import React from 'react'
 import Animation from "../components/Animation";
 import Animation2 from "../components/Animation2";
 import Animation3 from "../components/Animation3";
@@ -8,7 +9,7 @@ import Animation7 from "../components/Animation7";
 import Animation8 from "../components/Animation8";
 import Depressao from "../assets/Depressao.png";
 import { Header } from "../components/Header";
-import Card from "../assets/Card.PNG";
+import Card from "../assets/Card.png";
 import CausasSuicidio from "../assets/CausasSuicidio.png";
 import Ansiedade from "../assets/Ansiedade.jpg";
 import { Breadcrumb } from "../components/Breadcrumb";

@@ -1,10 +1,12 @@
-import { Navbar } from "../components/Navbar";
+import React from "react";
+import { Header } from "../components/Header";
 import { Section } from "../components/Section";
 import Animation from "../components/Animation";
+
 export function Home() {
     return (
         <div>
-            <Navbar />
+            <Header />
             <Section />
             <Animation />
         </div>

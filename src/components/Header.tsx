@@ -22,10 +22,12 @@ export function Header() {
 
           {isOpen && (
             <>
+              {/* Overlay para fechar ao clicar fora */}
               <div
                 className="fixed inset-0 z-10"
                 onClick={() => setIsOpen(false)}
               ></div>
+              
               <div className="absolute left-0 mt-2 w-64 p-2 bg-white rounded-xl shadow-2xl border-none z-20">
                 <div className="p-2 mb-2 bg-sky-300 rounded-xl border-b border-gray-100">
                   <p className="text-xs font-semibold text-sky-800 uppercase tracking-wider">Navegação</p>

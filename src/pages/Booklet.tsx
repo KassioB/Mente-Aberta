@@ -9,7 +9,7 @@ import Animation7 from "../components/Animation7";
 import Animation8 from "../components/Animation8";
 import Depressao from "../assets/Depressao.png";
 import { Header } from "../components/Header";
-import Card from "../assets/Card.png";
+import Card from "../assets/Card.PNG";
 import CausasSuicidio from "../assets/CausasSuicidio.png";
 import Ansiedade from "../assets/Ansiedade.jpg";
 import { Breadcrumb } from "../components/Breadcrumb";

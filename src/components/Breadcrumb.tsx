@@ -27,7 +27,7 @@ export function Breadcrumb() {
             strokeLinejoin="round"
           />
         </svg>
-        <li className="font-medium">Mapa da Saúde Mental de Alagoas</li>
+        <li className="font-medium">Cartilha</li>
       </ul>
     </nav>
   )

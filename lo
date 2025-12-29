@@ -1,0 +1,31 @@
+[33mcommit 33dbafdc6f7d6414d8907abbfe1978676fb1cfca[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kássio <103225180+KassioB@users.noreply.github.com>
+Date:   Fri Dec 26 14:49:03 2025 -0300
+
+    style(Header): add overlay comment and improve spacing
+    
+    Add descriptive comment for overlay functionality and clean up whitespace in the mobile menu component.
+
+[33mcommit 1c0584a2a60218cc3c6b537e7b5fd91290e3b561[m
+Author: Kássio <103225180+KassioB@users.noreply.github.com>
+Date:   Fri Dec 26 13:37:03 2025 -0300
+
+    estilização
+
+[33mcommit ddeefd3aadfb4a9ac681ff3e34a36872e7dc0532[m
+Author: Kássio <103225180+KassioB@users.noreply.github.com>
+Date:   Fri Dec 26 12:58:55 2025 -0300
+
+    Trocando nomes
+
+[33mcommit 7bffd3f8a3728562aeafb69f263d296f30032ddf[m
+Author: Kássio <103225180+KassioB@users.noreply.github.com>
+Date:   Fri Dec 26 12:53:23 2025 -0300
+
+    icon
+
+[33mcommit 5b337047943365c48cfd1f6fb4f3de4ff454d8a8[m
+Author: Kássio <kbc1@aluno.ifal.edu.br>
+Date:   Fri Dec 12 16:52:06 2025 -0300
+
+    Fix: Correção de import case-sensitive do Breadcrumb

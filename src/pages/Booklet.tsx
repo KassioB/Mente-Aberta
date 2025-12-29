@@ -16,11 +16,7 @@ import { Breadcrumb } from "../components/Breadcrumb";
 
 export function Booklet() {
     return (
-        <div className="min-h-screen bg-[#F8F8F8]">
-            {/* Top bar similar ao exemplo */}
-         <Header/>
-         <Breadcrumb/>
-
+        <>
             <main className="max-w-4xl mx-auto px-4 py-10">
                 {/* Hero/Card principal */}
                 <section className="bg-gradient-to-r from-amber-100 from-10% via-lime-100 via-50% to-sky-200 to-90% text-gray-700 rounded-2xl shadow-xl overflow-hidden p-8 mb-8 border border-gray-400">
@@ -714,6 +710,6 @@ export function Booklet() {
                     </footer>
                 </article>
             </main>
-        </div>
+        </>
     );
 }
